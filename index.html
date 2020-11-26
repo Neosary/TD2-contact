@@ -8,84 +8,87 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
 </head>
-<body class="bg-dark container-fluid">
-<header class="text-white">
-    <h1>Delevoye Ryan</h1>
-    <h2>Dev web et web mobile</h2>
-    <p>Stage</p>
-    <address>6 rue gracchus babeuf</address>
-    <p><a href="mailto:ryan.delevoye@gmail.com">ryan.delevoye@gmail.com</a></p>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h2 class="navbar-brand">Mon CV</h2>
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link text-primary" href="#experiences">Expériences</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-primary" href="#formation">Formation</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-primary" href="#interets">Intérêts</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<div class="container-fluid">
-    <div class="row">
-        <section class="col-lg-6">
-            <h2 class="text-center text-white">Mon parcours</h2>
+
+<body class="container" id="content">
+
+    <header class="row">
+        <nav class="navbar fixed-top bg-dark">
+            <a class="navbar-brand badge-dark" href="#content">CV</a>
+            <a class="nav-link badge-dark" href="#Qui">Qui suis-je ?</a>
+            <a class="nav-link badge-dark" href="#Parcour">Mon parcours</a>
+            <a class="nav-link badge-dark" href="#Comp">Compétences</a>
+            <a class="nav-link badge-dark" href="#Real">Réalisations</a>
+            <a class="nav-link badge-dark" href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="mt-4 pt-5 pb-3" id="Qui" style="background-color: #F5F5F5">
+            <div class="card mt-5 col-lg-12 d-flex justify-content-around" style="width:400px">
+                <img class="card-img-top" src="Photo.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Ryan Delevoye</h4>
+                    <p class="card-text">22 ans - Dev web et web mobile (Front/Back)</p>
+                </div>
+            </div>
+    </section>
+
+        <section class="pt-5 pb-3" style="background-color: #D2AB99">
+            <h3 class="text-center mb-4" style="font-size: 35px" id="Parcour">Mon parcours</h3>
             <article>
-                <h3 id="experiences" class="text-white">Expériences Professionnelles</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Equipier polyvalent - Mc Donald's</li>
-                    <li class="list-group-item">Manutentionnaire - Colipost Douvrin</li>
-                    <li class="list-group-item">Compta - Stage en entreprise </li>
-                </ul>
-            </article>
-            <article>
-                <h3 id="formation" class="text-white">Formation</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">BAC Pro Gestion Administration</li>
-                    <li class="list-group-item">Niveau BTS Compta Gestion</li>
-                </ul>
-            </article>
-            <article>
-                <h3 id="interets" class="text-white">Intérêts</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Cinema</li>
-                    <li class="list-group-item">Jeux video</li>
-                    <li class="list-group-item">Informatique</li>
-                </ul>
+                <p class="text-center">J’ai réalisé un bac GA (Gestion administration) durant lequel j’ai pu me familiariser avec la gestion.
+                    J’ai travaillé , le droit, la gestion de ressources humaines, l’économie, la communication, et bien d’autres matières intéressantes.
+                    J’ai également réalisé 3 années en BTS CG (Comptabilité Gestion). Ce qui m’a permit d’abordé la comptabilité et approfondir les matières du  BAC effectué.
+                    Après ma troisième années de BTS j’ai commencé a travailler pour McDonald’s en tant que équipier polyvalents. Et par la suite j’ai également travaillé
+                    comme manutentionnaire pour Colipost Douvrin. Après avoir décidé de me reconvertir j’ai effectué un Titre pro Développeur Web et Web mobile.</p>
             </article>
         </section>
 
-        <aside class="col-lg-6">
-            <h3 id="competences" class="text-white">Compétences</h3>
-            <ol class="list-group">
-                <li class="list-group-item">Pack Office</li>
-                <li class="list-group-item">Anglais Courant</li>
-                <li class="list-group-item">Photoshop (Débutant)</li>
-                <li class="list-group-item">
-                    <div class="progress" style="height: 25px">
-                        <div class="progress-bar bg-success" style="width: 25%; margin-bottom: 3px" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML</div>
-                    </div>
-                    <div class="progress" style="height: 20px">
-                        <div class="progress-bar bg-info" style="width: 50%; margin-bottom: 3px" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS</div>
-                    </div>
-                    <div class="progress" style="height: 20px">
-                        <div class="progress-bar bg-danger" style="width: 75%; margin-bottom: 3px" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JS</div>
-                    </div>
-                </li>
-            </ol>
-        </aside>
+    <div class="container-fluid">
+        <section class="row border" style="background-color: #F5F5F5">
+            <h3 class="text-center col-lg-12 pt-5 mb-4 border-0" id="Comp" style="font-size: 35px">Compétences</h3>
+            <ul class="text-center list-group col-lg-12 border-0 mb-4">
+                <div class="row border-0 ">
+                    <li class="list-group-item col-lg-6 border-0 bg-transparent"><h4>Pack office</h4>
+                        <p>Au cours de mes années détudes j'ai appris a maitrisé les différents logiciel du pack office (Word/Excel/Powerpoint/Acces)</p>
+                    </li>
+                    <li class="list-group-item col-lg-6 border-0 bg-transparent"><h4>Photoshop (Débutant)</h4>
+                        <p>J'ai déjà réalisé quelque projets perso comme des fond d'écran, des logos ou encore un peu de retouche phoro</p>
+                    </li>
+                    <li class="list-group-item col-lg-6 border-0 bg-transparent"><h4>Langage acquis</h4>
+                        <p>HTML 5 / CSS / JavaScript / PHP / Python / C#</p>
+                    </li>
+                    <li class="list-group-item col-lg-6 border-0 bg-transparent"><h4>Adaptabilité</h4>
+                        <p>Je m'adapte facilement a mon environnement et mon équipe de travail, je suis également rigoureux et organisé</p>
+                    </li>
+                </div>
+            </ul>
+        </section>
     </div>
+
+    <div class="container-fluid">
+        <section class="row border" style="background-color: #D2AB99">
+            <h3 class="text-center col-lg-12 pt-5 mb-4 border-0" id="Real" style="font-size: 35px">Réalisations</h3>
+            <img src="unknown.png" alt="" class="col-lg-6 mt-2 mb-4">
+            <img src="unknown.png" alt="" class="col-lg-6 mt-2 mb-4">
+            <img src="unknown.png" alt="" class="col-lg-6 mt-2 mb-4">
+            <img src="unknown.png" alt="" class="col-lg-6 mt-2 mb-4">
+        </section>
+    </div>
+
+
+<div class="container-fluid">
+    <section class="row border" style="background-color: #F5F5F5">
+        <h3 class="text-center col-lg-12 pt-5 border-0" id="Contact" style="font-size: 35px">Contact</h3>
+        <ul class="text-center list-group col-lg-12 border-0 mb-4">
+            <div class="row border-0 ">
+                <li class="list-group-item col-lg-6 border-0 bg-transparent font-weight-bold" style="font-size: 20px">06.28.46.61.93</li>
+                <li class="list-group-item col-lg-6 border-0 bg-transparent font-weight-bold" style="font-size: 20px">ryan.delevoye@gmail.com</li>
+                <li class="list-group-item col-lg-12 border-0 bg-transparent">Created by Ryan Delevoye</li>
+            </div>
+        </ul>
+    </section>
 </div>
 
-<footer class="col-lg-12 text-center text-primary bg-dark">
-    <a href="" target="blank" title="Lnk">
-        <img src="" alt="Lnk" title="Mon profil" />
-    </a>
-    <p class="text-white">Created by Delevoye Ryan</p>
-</footer>
 </body>
+
 </html>
